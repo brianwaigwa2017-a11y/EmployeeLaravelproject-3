@@ -5,7 +5,8 @@ services:
     name: student-management-system
     runtime: docker
     plan: free
-    dockerfilePath: ./Dockerfile
+    dockerfilePath: ./dockerfile
+    dockerContext: ./employeeMnS
 
     envVars:
       - key: APP_NAME
